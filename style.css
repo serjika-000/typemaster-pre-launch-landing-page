@@ -1,0 +1,623 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&family=Red+Hat+Display:wght@500;900&display=swap');
+body{
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.container{
+    max-width: 327px;
+    width: 100%;
+    margin: 0 auto;
+}
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.typemaster-btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 43px;
+    margin-bottom: 35px;
+}
+.order-button{
+    color: #162542;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    text-transform: uppercase;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #E8EFF2;
+    flex-shrink: 0;
+    border: none;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+.order-button:hover{
+    background: #162542;
+    color: white;
+}
+.title{
+    color: #162542;
+    font-family: 'Barlow', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.description{
+    display: flex;
+    text-align: left;
+    margin-top: 32px;
+    margin: 0 auto;
+    color: #7B8BAD;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    /* width: 327px; */
+}
+
+
+ 
+.order{
+    /* width: 150px; */
+    height: 48px;
+    border-radius: 8px;
+    background-color: #F16718;
+    color: #FFF;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    text-transform: uppercase;
+    border: none;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+.order:hover{
+    background: #FF9B62;
+}
+.pictures-keyboard{
+    width: 100%;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+/* 
+.silver-keyboard-wraper{
+    max-width: 372px;
+    width: 100%;
+    height: 331px;
+    border-radius: 20px;
+    position: relative;
+}
+.silver-keyboard-wraper img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    right: -20px;
+} */
+ 
+.orange-keyboard-wraper{
+    max-width: 129px;
+    width: 100%;
+    height: 193px;
+    position: relative;
+}
+.orange-keyboard-wraper img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0 20px 20px 0;
+}
+
+.orange-keyboard-wraper::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #F16718;
+    opacity: 0.7486;
+    border-radius: 0 20px 20px 0;
+
+}
+.release{
+    color: #7B8BAD;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    text-transform: uppercase;
+    margin-left: 32px;
+}
+
+ 
+.glass-keyboard{
+    max-width: 220px;
+    width: 100%;
+    height: 193px;
+    border-radius: 20px;
+    background: #D8D8D8;
+    margin-top: 14px;
+    /* margin-right: 24px; */
+   
+}
+
+
+.wirless{
+    color: #162542;
+    display: flex;
+    text-align: center;
+    /* padding: 60px 32px; */
+    font-family: 'Barlow', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px; /* 112.5% */
+    text-transform: uppercase;
+    /* width:255px; */
+    margin: 0 auto;
+}
+.mechanical-description{
+    color: #7B8BAD;
+    display: flex;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    margin: 0 auto;
+    /* padding: 24px; */
+}
+
+.wrapper{
+    text-align: center;
+    width: 100%;
+}
+
+.info{
+    max-width: 327px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 46px;
+}
+
+
+.info h2{
+    width: 75%;
+    margin: 0 auto;
+    color: #162542;
+    font-family: 'Barlow', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 46px;
+    margin-bottom: 24px;
+   
+}
+
+
+
+
+.type{
+    color: #7B8BAD;
+    font-family: 'Barlow', sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 52px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+
+}
+.type span{
+    color: #7B8BAD;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0 auto;
+}
+
+@media (max-width: 1920px){
+    .container{
+        max-width: 1110px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .typemaster-btns{
+        justify-content: left;
+    }
+    .header-logo{
+        width: 100%;
+        margin-top: 64px;
+    }
+    .typemaster{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 83px;
+    }
+    .silver-picture{
+        border-radius: 20px;
+    }
+    .title{
+        max-width: 445px;
+        width: 100%;
+    }
+    .description{
+        max-width: 445px;
+        width: 100%;
+    }
+    .typemaster-right{
+        max-width: 540px;
+        width: 100%;
+        height: 480px;
+    }
+    .typemaster-right img{
+        width: 100%;
+        height: 100%;
+    }
+    /*  */
+    .pictures-keyboard{
+        display: flex;
+        align-items: center;
+        max-width: 1110px;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    .glass-keyboard-wraper{
+        max-width: 445px;
+        width: 100%;
+        height: 480px;
+    }
+    .glass-keyboard-wraper img{
+        margin-top: 0;
+        margin-left: 30px;
+        max-width: 445px;
+        width: 100%;
+    }
+    .pictures-keyboard-left{
+        display: flex;
+        justify-content: space-between;
+    }
+    .orange-keyboard-wraper{
+        max-width: 255px;
+        width: 100%;
+        height: 480px;
+    }
+    .orange-keyboard-wraper::after{
+        border-radius: 20px;
+    }
+    .orange-keyboard-wraper img, .glass-keyboard-wraper img{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+    .mechanical-title{
+        max-width: 255px;
+        width: 100%;
+        text-align: left;
+        margin: 0;
+    }
+    .wirless, .mechanical-description{
+        text-align: left;
+    }
+    .mechanical-description{
+        margin-top: 27px;
+    }
+    .wrapper{
+        max-width: 1110px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 60px;
+    }
+    .info-wraper{
+        max-width: 540px;
+        width: 100%;
+        /* margin: 0 auto; */
+        display: flex;
+        justify-content: space-between;
+        margin-top: 168px;
+    }
+    .info{
+        max-width: 225px;
+        width: 100%;
+        text-align: left;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .info h2{
+        width: 80%;
+        font-size: 24px;
+        text-align: left;
+        margin-left: 0;
+    }
+    .info p{
+        font-size: 16px;
+        color: #7B8BAD;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+    }
+    .type{
+        max-width: 272px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        margin-top: 128px;
+        margin-bottom: 39px;
+    }
+}
+
+
+
+@media (max-width: 769px){
+
+    .container{
+        max-width: 689px;
+        width: 100%;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+    .header-logo{
+        /* padding-left: 39px;
+        padding-right: 39px; */
+        margin-top: 49px;
+    }
+    .title{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .typemaster{
+        /* max-width: 689px;
+        width: 100%; */
+        margin: 0 auto;
+        display: flex; 
+        /* align-items: center; */
+        justify-content: space-between;
+        margin-top: 62px;
+        /* gap: 69px; */
+        position: relative;
+        padding-bottom: 20px;
+        /* overflow-x: hidden; */
+        z-index: 566;
+        margin-left: 39px;
+    }
+    .typemaster-left{
+        max-width: 339px;
+        width: 100%;
+    }
+    .typemaster-right{
+        max-width: 478px;
+        width: 100%;
+        height: 425px;
+        position: absolute;
+        right: -200px;
+    }
+    .typemaster-right img{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+    /*  */
+    .pictures-keyboard{
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+    .orange-keyboard-wraper{
+        max-width: 214px;
+        width: 100%;
+        height: 320px;
+    }
+    .glass-keyboard-wraper{
+        max-width: 445px;
+        width: 100%;
+        height: 320px;
+    }
+    .glass-keyboard-wraper img{
+        margin-left: 0;
+    }
+    .glass-keyboard{
+        max-width: 445px;
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+        object-fit: cover;
+    }
+    .orange-keyboard-wraper img, .orange-keyboard-wraper::after{
+        border-radius: 20px;
+    }
+    .mechanical-title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 680px;
+        width: 100%;
+        margin-top: 78px;
+        margin-bottom: 142px;
+    }
+    .wirless{
+        text-align: left;
+        padding-left: 0;
+    }
+    .mechanical-description{
+        text-align: left;
+        padding-right: 0;
+        margin-top: 0;
+    }
+    .wrapper{
+        max-width: 689px;
+        width: 100%;
+
+        flex-direction: column;
+    }
+    .info-wraper{
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+        justify-content: left;
+    }
+    .info{
+        max-width: 339px;
+        width: 100%;
+        text-align: left;
+         
+    }
+    .info h2{
+        text-align: left;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .info p{
+        max-width: 281px;
+        width: 100%;
+        color: #7B8BAD;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+    }
+    /*  */
+    .type{
+        max-width: 272px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 142px;
+        margin-bottom: 42px;
+    }
+}
+
+@media (max-width: 376px){
+    .header-logo{
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-top: 27px;
+    }
+    .order{
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+    .typemaster{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+    .typemaster-left{
+        margin: 0 auto;
+        padding-left: 15px;
+    }
+    .typemaster-right{
+        max-width: 372px;
+        width: 100%;
+        height: 331px;
+        position: relative;
+    }
+    .typemaster-right img{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        right: 150px;
+    }
+    /*  */
+    .orange-keyboard-wraper{
+        max-width: 129px;
+        height: 193px;
+        width: 100%;
+        position: relative;
+    }
+    .glass-keyboard-wraper{
+        max-width: 220px;
+        height: 193px;
+        width: 100%;
+        margin-right: 24px;
+    }
+    .orange-keyboard{
+        position: absolute;
+        left: -20px;
+    }
+    .orange-keyboard-wraper::after{
+        left: -20px;
+    }
+    /*  */
+    .mechanical-title{
+        display: block;
+        text-align: center;
+        max-width: 327px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .wirless{
+        text-align: center;
+        padding: 0;
+        max-width: 255px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 32px;
+    }
+    .mechanical-description{
+        margin-top: 24px;
+        padding: 0;
+        text-align: center;
+        margin-bottom: 111px;
+    }
+    /*  */
+    .wrapper{
+        flex-direction: column;
+    }
+    .info-wraper{
+        max-width: 327px;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .info{
+        flex-direction: column;
+        display: block;
+        text-align: center;
+    }
+    .info h2{
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+    
+    .info p{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        color: #7B8BAD;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+    }
+}
